@@ -1,4 +1,4 @@
-# algorithm
+# Algorithm
 
 [tony9402 github]&nbsp;&nbsp;<https://github.com/tony9402/baekjoon> </br> 위의 알고리즘 문제집을 참고하여 문제를 풀어 나갈 계획입니다.
 </br>

@@ -24,3 +24,7 @@ doc/**/*.pdf
 # Pycharm
 .idea/
 venv
+
+
+# examples 폴더 안에 있는 .gitkeep은 제외 예외
+*.gitkeep
