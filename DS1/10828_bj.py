@@ -7,7 +7,7 @@ import sys
 n = int(sys.stdin.readline())
 lst = []
 
-for i in range(n):
+for _ in range(n):
     command = sys.stdin.readline().split()
 
     if command[0] == "push":
