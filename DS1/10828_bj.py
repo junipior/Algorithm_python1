@@ -14,7 +14,7 @@ for _ in range(n):
         lst.append(command[1])
 
     elif command[0] == "pop":
-        if len(lst) >= 1:
+        if len(lst) != 1:
             print(lst[-1])
             lst = lst[:-1]
         else:

@@ -9,15 +9,14 @@ n = int(sys.stdin.readline())
 deq = deque()
 
 for _ in range(n):
-    command = sys.stdin.readline().rstrip().split()
+    command = sys.stdin.readline().strip().split()
 
     if command[0] == "push":
-        deq.append(int(command[1]))
+        deq.append(command[1])
 
     elif command[0] == "pop":
-        if len(str(deq)) > 0:
-            print(deq[0])
-            deq = deq.popleft()
+        if len(deq) != 0:
+            print(deq.popleft())
         else:
             print(-1)
 
