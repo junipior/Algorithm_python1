@@ -32,3 +32,4 @@ venv
 # 실행 중 파일 제외
 .run/
 ing
+*.html
