@@ -24,7 +24,7 @@ Algorithm
 | 15   | Math                  | 수학                       | [바로가기](./Math)               | ![status][TODO]  |
 | 16   | Tree                  | 트리                       | [바로가기](./Tree)               | ![status][TODO]  |
 | 17   | Programmers           | 프로그래머스 알고리즘 풀이 | [바로가기](./Programmers)        | ![status][DOING] |
-| 18   | Algorithm book        | 이취코 aka.동빈북          | [바로가기](./Algorithm book)     | ![status][DOING] |
+| 18   | Algorithm book        | 이취코 aka.동빈북          | [바로가기](Algorithm_book)     | ![status][DOING] |
 
 [TODO]: https://img.shields.io/badge/-TODO-lightgrey
 [DOING]: https://img.shields.io/badge/-DOING-informational
