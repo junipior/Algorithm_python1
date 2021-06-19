@@ -39,7 +39,7 @@ print(x , y)
 
 
 # # 문제 해설
-# # N 입력받기
+# # H 입력받기
 # n = int(input())
 # x, y = 1, 1
 # plans = input().split()

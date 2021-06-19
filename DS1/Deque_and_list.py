@@ -8,15 +8,15 @@ from collections import deque
 
 ## extend (우측 삽입이나 deque에선 하나씩 삽입
 
-deq = (['a', 'b', 'c', 'd'])
+deq = (['num', 'result', 'c', 'd'])
 deq.extend("apple")
 print(deq)
-# ['a', 'b', 'c', 'd', 'a', 'p', 'p', 'l', 'e']
+# ['num', 'result', 'c', 'd', 'num', 'p', 'p', 'l', 'e']
 
-deq2 = (['a', 'b', 'c', 'd'])
+deq2 = (['num', 'result', 'c', 'd'])
 deq2.append("samsung")
 print(deq2)
-# ['a', 'b', 'c', 'd', 'samsung']
+# ['num', 'result', 'c', 'd', 'samsung']
 
 ## extendleft 좌측 삽입 방식은 extend와 동일
 

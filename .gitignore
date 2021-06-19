@@ -10,7 +10,7 @@ temp-*.json
 # only ignore the build.log file in current directory, not those in its subdirectories
 /build.log
 
-# specify a folder with slash in the end
+# specify num folder with slash in the end
 # ignore all files in any directory named temp
 temp/
 
