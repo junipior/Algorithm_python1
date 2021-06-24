@@ -26,4 +26,4 @@ for _ in range(n):
 if no == False:
     print("NO")
 else:
-    print("\n".join(result))
+    print("\n".join(result)) # result를 enter로 각각 나누어(구분자) 합침.
