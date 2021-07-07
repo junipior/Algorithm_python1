@@ -1,3 +1,7 @@
+# 7월 7일
+# 프로그래머스 그리디(Greedy)
+# 조이스틱
+
 def solution(name):
     change = [min(ord(i) - ord("A"), ord("Z") - ord(i) + 1) for i in name]
     idx, answer = 0, 0
