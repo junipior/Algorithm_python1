@@ -1,7 +1,8 @@
 # 7월 10일
 # 프로그래머스 정렬(Sorting)
-# 보트는 최대 "2명"이 탈 수 있음
+# A.sort()는 리스트를 그 자리에서 정렬하고 None을 반환
 
+# 1
 def solution(array, commands):
     answer = []
     for i in range(len(commands)):
@@ -14,5 +15,16 @@ def solution(array, commands):
         answer.append(num)
     return answer
 
-#a rray	commands	return
+# 2
+
+def solution(array, commands):
+    return [sorted(array[i-1:j])[k-1] for i,j,k in commands]
+
+# 3
+
+def solution(array, commands):
+    return list(map(lambda x : sorted(array[x[0]-1:x[1]])[x[2]-1], commands))
+
+# answer
+# array	commands return
 # [1, 5, 2, 6, 3, 7, 4]	[[2, 5, 3], [4, 4, 1], [1, 7, 3]]	[5, 6, 3]
