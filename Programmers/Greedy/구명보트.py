@@ -1,6 +1,6 @@
 # 7월 9일
 # 프로그래머스 그리디(Greedy)
-# 보트는 최대 "2명"이 탈 수 있음
+# 주의점 : 보트는 최대 "2명"이 탈 수 있음
 
 def solution(people, limit):
     people.sort()
